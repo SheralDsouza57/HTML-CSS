@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Inter;
+}
+
+.content {
+    background-color: #FFCD9E;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #282828;
+}
+
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    width: 50vw;
+    height: 66.6666666667vh;
+}
+
+.right-content {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 66.6666666667vh;
+}
+
+
+.left-footer {
+    width: 50vw;
+    height: 33.3333333333vh;
+    cursor: pointer
+}
+
+.right-footer {
+    width: 50vw;
+    height: 33.3333333333vh;
+    cursor: pointer
+}
+
+.right-image {
+    margin: 40px 40px 40px 40px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #282828;
+    width: 80%
+}
+
+.p1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #484848;
+    width: 65%;
+    line-height: 160%
+}
+
+.p2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #282828
+}
+
+input {
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding-left: 20px;
+    width: 15rem;
+    margin-top: 12px;
+    margin-right: 12px;
+    border: 3px solid #000000
+}
+
+button {
+    background: #282828;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    width: 10em;
+    height: 40px;
+    cursor: pointer
+}
+
+.p3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    margin-top: 12px;
+    margin-left: 20px
+}
+
+.ul-left {
+    margin: 50px 0px 0px 100px;
+}
+
+.ul-right {
+    text-align: right;
+    margin: 50px 200px 0px 0px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    /* Remove bullets */
+    padding: 0;
+    /* Remove padding */
+    margin: 0;
+    /* Remove margins */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.left-footer,
+.right-footer {
+    color: #FFFFFF;
+}
